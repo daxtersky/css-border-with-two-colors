@@ -1,0 +1,29 @@
+.border1 { 
+    width: 400px;
+    padding: 20px;
+    border-left: 10px solid orange;
+    border-right:10px solid black;
+    background-image: 
+        linear-gradient(-90deg, black 50%, orange 50%),
+        linear-gradient(-90deg, black 50%, orange 50%);
+    background-size:100% 10px;
+    background-position:0 0, 0 100%;
+    background-repeat:no-repeat; 
+
+} 
+
+.border2 { 
+    width: 400px;
+    padding: 20px;
+    border-top: 10px solid orange;
+    border-bottom:10px solid black;
+    background-image: 
+        linear-gradient(orange, black),
+        linear-gradient(orange, black)
+    ;
+    background-size:10px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;
+
+
+}
